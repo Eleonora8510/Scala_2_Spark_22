@@ -17,8 +17,7 @@ object Day2ViewMapFilterReduceExercise extends App{
 
   val productOfOddSquares = numbers.view.map(n => n*n).filter(n => n%2 == 1).reduce(_*_)
 
-  println(s"Product of odd squares is " + productOfOddSquares)
-
+  println(s"Product of odd squares is  $productOfOddSquares")
 
 
   // println product(multiplication) of odd squares of numbers from 1 to user input
